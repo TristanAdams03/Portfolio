@@ -1,0 +1,13 @@
+# robots.txt for https://www.yourportfolio.com/
+
+# Allow all web crawlers to access the entire site except the resume
+User-agent: *
+Disallow: /Tristan-Adams-Current-Resume.pdf  # Block access to the resume PDF file
+
+# Allow access to all other pages and resources
+Allow: /
+
+# Sitemap file location
+#Sitemap: https://www.yourportfolio.com/sitemap.xml
+
+# End of file
